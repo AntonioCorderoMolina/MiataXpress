@@ -1,6 +1,9 @@
 # MiataXpress
 Proyecto web para el módulo de Lenguaje de Marcas
-
+<br>
+<p>Enlaces directo a web navegable:</p>
+- <a href="">Web navegable del proyecto</a>
+<br>
 <h2>Listado de ideas para la web</h2>
     <p>Crear web tipo blog para el club MiataXpress únicamente formado para Mazda MX5 en Andalucía</p>
     <p><b>Motivo:</b> El club no tiene web propia y se podría crear una web a modo informativo de proximas salidas, rutas, tutoriales, así como también un pequeño foro dode se escriban consejos sobre repuestos y webs de compra, porque el en grupo de Whatsapp siempre están preguntado las mismas dudas</p>
