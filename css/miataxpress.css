@@ -1,0 +1,83 @@
+/**********************************************************/
+/*          Style sheet for MiataXpress website           */
+/*          author: Antonio Cordero Molina                */
+/*          version: 1.0                                  */
+/*          comments: class project 2023-24               */
+/**********************************************************/
+
+
+/********************************* COLOURS ************************************/
+
+/*
+    body: #a38348;
+    wrapper: #f3e790;
+    tittles: #ae421e;
+*/
+
+/********************************** FONTS *************************************/
+
+@font-face {
+    font-family: regulartext;
+    src: url(../);
+}
+
+@font-face {
+    font-family: tittles;
+    src: url(../);
+}
+
+/********************************** BODY **************************************/
+
+* {box-sizing: border-box;}
+
+    body {
+        background-color: #bebebe;
+        margin:0;
+        padding:0;
+        font-family: textonormal;
+    }   
+
+    #wrapper {
+        background-color: #808080;
+        width:80%;
+        margin: auto;
+    }
+
+/********************************* NAVBAR *************************************/
+
+
+
+/****************************** HERO SECTION **********************************/
+
+    #hero {
+        background-image: url(../);
+        height: 95vh;
+        background-size: cover;
+        background-position: center;  
+        position: relative;
+    }
+
+    #hero button {
+        background-color: #808080;
+        color: white;
+        font-weight: bold;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+/********************************* FOOTER *************************************/
+
+
+
+/******************************* RESPONSIVE ***********************************/
+
+@media only screen and (width<700px) {
+    #hero {
+        background-image: url(../img/);
+    }
+}
