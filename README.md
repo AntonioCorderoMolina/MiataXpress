@@ -2,7 +2,7 @@
 Proyecto web para el módulo de Lenguaje de Marcas
 <br>
 <p>Enlaces directo a web navegable:</p>
-- <a href="">Web navegable del proyecto</a>
+- <a href="https://antoniocorderomolina.github.io/MiataXpress/miataxpress.html">Web navegable del proyecto</a>
 <br>
 <h2>Listado de ideas para la web</h2>
     <p>Crear web tipo blog para el club MiataXpress únicamente formado para Mazda MX5 en Andalucía</p>
