@@ -48,7 +48,7 @@
     position: absolute;
     top: 30%;
     left: 25%;
-    transform: translate(-50%,-50%) ;
+    transform: translate(-50%,-50%);
 }
 
 .joinus {
@@ -195,14 +195,18 @@ p {
 
     
 /******************************** FOOTER *************************************/
+
 #footer {
-    background-image: url(../img/edits/miataxpress_footer_lightsoff.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 50px 0;
     text-align: center;
-    color: #f5f5f5;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#footer img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 /******************************* RESPONSIVE ***********************************/
