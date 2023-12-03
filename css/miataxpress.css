@@ -407,6 +407,12 @@ p {
     text-decoration: underline;
 }
 
+.footer-social i {
+    font-size: 3em;
+    padding: 10px;
+    
+}
+
 .footer-widget-heading h3 {
     font-family: titles;
     color: #f5f5f5;
