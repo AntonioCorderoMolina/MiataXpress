@@ -295,6 +295,21 @@ a .fa-arrow-circle-up {
 /*#############################################################################*/
 /*################################ SECTIONS ###################################*/
 
+#aboutUs h2 {
+    font-family: titles;
+    color: #800928;
+    text-align: center;
+    padding-bottom: 5%;
+    width: 100%;
+}
+
+#aboutUs p {
+    font-family: text;
+    color: #101010;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
 .section {
     display: flex;
     align-items: center;
