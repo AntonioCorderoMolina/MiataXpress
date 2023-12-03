@@ -117,6 +117,68 @@ nav  {
     font-weight: bold;
 }
 
+/***** DROPDOWN BUTTON STYLE *****/
+
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Style the dropdown button to fit inside the topnav */
+  .dropdown .dropbtn {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: inherit;
+    border: none;
+    outline: none;
+    color: #f5f5f5;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin-top: 0;
+  }
+
+  /* Style the dropdown content (hidden by default) */
+.dropdown-content {
+    font-family: titles;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 129px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    z-index: 1;
+  }
+  
+  /* Style the links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: #990505;
+    color: #f5f5f5;
+  }
+  
+  /* Add a colour background to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #800928;
+    color: #f5f5f5;
+  }
+  
+  /* Show the dropdown menu when the user moves the mouse over the dropdown button */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+/***** DROPDOWN BUTTON STYLE ENDS *****/
+
 .site-name {
     font-family: titles;
     font-style: italic;
@@ -292,18 +354,171 @@ p {
 /*#############################################################################*/
 /*################################# FOOTER ####################################*/
 
-#footer {
+.footer {
+  background: #101010;
+  position: relative;
+}
+
+.footer-content {
+    border-bottom: 1px solid #101010;
+}
+
+.footer-logo {
+    margin-bottom: 30px;
     text-align: center;
-    background-size: cover;
-    background-position: center;
+  }
+.footer-logo img {
+    display: inline-block;
+    width: 300px;
+    padding-top: 5%;
     position: relative;
 }
 
-#footer img {
-    width: 100%;
-    height: auto;
-    display: block;
+/***** GRID FOOTER CONTENT *****/
+
+.grid-3d {
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
+
+.footer-social p {
+    font-family: titles;
+    color: #f5f5f5;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    position: relative;
+}
+.footer-social p::before {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    height: 2px;
+    width: 150px;
+    background: #990505;
+}
+
+.footer-social a {
+    text-decoration: none;
+    color: #990505;
+}
+
+.footer-social a:hover {
+    text-decoration: underline;
+}
+
+.footer-widget-heading h3 {
+    font-family: titles;
+    color: #f5f5f5;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 150px;
+  background: #990505;
+}
+
+/***** email form from W3School *****/
+
+.footer-widget  {
+    padding-right: 20px;
+}
+
+.subscribe-form {
+    position: relative;
+    overflow: hidden;
+    padding-right: 10px;
+}
+.subscribe-form input {
+    width: 100%;
+    padding: 14px 28px;
+    background: #101010;
+    border: 1px solid #990505;
+    color: #990505;
+}
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #800928;
+    padding: 13px 20px;
+    border: 1px solid #800928;
+    top: 0;
+    padding-right: 10px;
+}
+.subscribe-form button i {
+    color: #f5f5f5;
+    font-size: 22px;
+    transform: rotate(-6deg);
+    padding-right: 10px;
+}
+
+/***** email form from W3School ENDS *****/
+
+/***** GRID FOOTER CONTENT ENDS *****/
+
+
+/***** COPYRIGHT AREA *****/
+
+.copyright-area{
+  background: #101010;
+  border-top: 2px solid #800928;
+  padding: 25px 0;
+}
+.copyright-text p {
+    font-family: text;
+    text-align: center;
+    font-size: 0.8em;
+    color: #f5f5f5
+}
+.copyright-text a {
+    color: #990505;
+}
+
+.col-4 {
+    font-size: 0.85em;
+    padding-top: 10px;
+}
+
+.col-4 .mentions {
+    padding-top: 5px;
+}
+
+.col-4, .col-5 {
+  text-align: center;
+}
+
+.footer-menu {
+  width: 100%;
+}
+
+.footer-menu ul {
+  padding: 0;
+  list-style: none;
+}
+
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.footer-menu li:hover a {
+  color: #990505;
+  text-decoration: underline;
+}
+
+.footer-menu li a {
+  font-size: 14px;
+  color: #f5f5f5;
+  text-decoration: none;
+}
+/***** COPYRIGHT AREA ENDS *****/
 
 /*#############################################################################*/
 /*############################### RESPONSIVE ##################################*/
@@ -360,6 +575,21 @@ p {
 }
 
 /*########################### RESPONSIVE PC NAVBAR ###########################*/
+
+@media screen and (width>850px) {
+    .dropdown .dropbtn {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: inherit;
+        border: none;
+        outline: none;
+        color: #f5f5f5;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin-top: 5px;
+    }
+}
 
 nav  {
     position: sticky;
@@ -418,4 +648,181 @@ a.site-name {
     .textsection, .image img {
         width: 100%;
     }
+}
+
+/*####################### RESPONISVE PC FOOTER #########################*/
+
+@media screen and (width>850px) {
+
+    .footer {
+        background-image: url(../img/edits/miataxpress_footer.png);
+        background-size: cover;
+        background-position: center;
+        height: 80vh; 
+    }
+    .footer-logo img {
+        visibility: hidden;
+    }
+    
+    /***** GRID FOOTER CONTENT *****/
+    
+    .grid-3d {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        z-index: 99;
+    }
+    
+    .footer-social-pcresponsive {
+        position: absolute;
+        top: 68%;
+        left: 15%;
+        transform: translate(-50%,-50%);
+    }
+    .footer-social p {
+        font-family: titles;
+        color: #f5f5f5;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 40px;
+        text-align: left;
+    }
+    .footer-social p::before {
+        content: "";
+        position: absolute;
+        bottom: -15px;
+        height: 2px;
+        width: 150px;
+        background: #990505;
+    }
+    .footer-social a {
+        text-decoration: none;
+        color: #990505;
+    }
+    .footer-social a:hover {
+        text-decoration: underline;
+    }
+    
+    .footer-widget-pcresponsive{
+        position: absolute;
+        top: 68%;
+        right: 5%;
+        transform: translate(-50%,-50%) ;
+    }
+
+    .footer-widget-heading h3 {
+        font-family: titles;
+        color: #f5f5f5;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 40px;
+        position: relative;
+    }
+    .footer-widget-heading h3::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -15px;
+      height: 2px;
+      width: 150px;
+      background: #990505;
+    }
+    
+    /***** email form from W3School *****/
+    
+    .footer-widget  {
+        padding-right: 20px;
+    }
+    
+    .subscribe-form {
+        position: relative;
+        overflow: hidden;
+        padding-right: 10px;
+    }
+    .subscribe-form input {
+        width: 100%;
+        padding: 14px 28px;
+        background: #101010;
+       border: 1px solid #990505;
+        color: #990505;
+    }
+    .subscribe-form button {
+        position: absolute;
+        right: 0;
+        background: #800928;
+        padding: 13px 20px;
+        border: 1px solid #800928;
+        top: 0;
+        padding-right: 10px;
+    }
+    .subscribe-form button i {
+        color: #f5f5f5;
+        font-size: 22px;
+        transform: rotate(-6deg);
+        padding-right: 10px;
+    }
+    
+    /***** email form from W3School ENDS *****/
+    
+    /***** GRID FOOTER CONTENT ENDS *****/
+    
+    
+    /***** COPYRIGHT AREA *****/
+    
+    .copyright-area{
+        padding: 25px 0;
+        align-items: flex-end;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        height: 10vh;
+    }
+    .copyright-text p {
+        font-family: text;
+        text-align: center;
+        font-size: 0.8em;
+        color: #f5f5f5
+    }
+    .copyright-text a {
+        color: #990505;
+    }
+    
+    .col-4 {
+        font-size: 0.85em;
+    }
+    
+    .col-4 .mentions {
+        padding-top: 5px;
+    }
+    
+    .col-4, .col-5 {
+        text-align: center;
+    }
+    
+    .footer-menu {
+      width: 100%;
+    }
+    
+    .footer-menu ul {
+      padding: 0;
+      list-style: none;
+    }
+    
+    .footer-menu li {
+      display: inline-block;
+      margin-left: 20px;
+    }
+    
+    .footer-menu li:hover a {
+      color: #990505;
+      text-decoration: underline;
+    }
+    
+    .footer-menu li a {
+      font-size: 14px;
+      color: #f5f5f5;
+      text-decoration: none;
+    }
+    /***** COPYRIGHT AREA ENDS *****/
+
 }

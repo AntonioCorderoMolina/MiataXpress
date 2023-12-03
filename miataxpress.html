@@ -27,7 +27,17 @@
                     <ul>
                     <li><a href="#gallery">Galería</a></li>
                     <li><a href="#trips">MiataSundays</a></li>
-                    <li><a href="#guides">Manuales</a></li>
+                        <div class="dropdown"> <!--Dropdown Button from W3School-->
+                            <button class="dropbtn">Manuales
+                            <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                            <a href="#">NA</a>
+                            <a href="#">NB</a>
+                            <a href="#">NC</a>
+                            <a href="#">ND</a>
+                            </div>
+                        </div>
                     <li><a href="#tutorials">Tutoriales</a></li>
                     <li><a href="#contact">Contacto</a></li>
                     </ul>
@@ -102,11 +112,67 @@
         
     </div>
 
-    <footer id="footer">
+    <footer class="footer">
+        <div class="footer-logo">
+            <div class="footer-logo">
+                <a href="miataxpress.html"><img src="./img/logos/miataxpress_lowlogo_white.svg" alt="MiataXpress Logo"></a>
+            </div>
+            <div class="grid-3d">   
+                <div class="footer-social">
+                    <div class="footer-social-pcresponsive">
+                        <p>Sigue nuestras aventuras</p>
+                        <a href="https://www.youtube.com/channel/UCM5nRG0Tquzv70ANFslxqaw" target="_blank" class="youtubeChannel">
+                            <i class="fa-brands fa-youtube" style="color: #990505;"></i>
+                            Youtube
+                        </a>
+                        <a href="https://www.instagram.com/miataxpress/" target="_blank" class="instagramAccount">
+                            <i class="fa-brands fa-square-instagram" style="color: #990505;"></i>
+                            Instagram
+                        </a>
+                    </div>
+                </div>  
+  
+                <div class="widget">
+                    <div class="footer-widget">
+                        <div class="footer-widget-pcresponsive">
+                            <div class="footer-widget-heading">
+                                <h3>Apúntate y ven</h3>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#contact"> <!--- email form from W3Schools -->
+                                    <input type="text" placeholder="Email Address">
+                                    <button><i class="fab fa-telegram-plane"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
 
-        <img src="./img/edits/miataxpress_footer.png" alt="MiataXpress Web Footer">
-
+        <div class="copyright-area">
+            <div class="col-5">
+                <div class="footer-menu">
+                    <ul>
+                        <li><a href="#">Galería</a></li>
+                        <li><a href="#">MiataSundays</a></li>
+                        <li><a href="#">Manuales</a></li>
+                        <li><a href="#">Tutoriales</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-4">
+                    <div class="copyright-text">
+                        <p>Copyright &copy; 2023, All Right Reserved <a href="#">MiataXpress</a></p>
+                        <div class="mentions">
+                            <p>Fotografos: A. Díaz <a href="https://www.instagram.com/adiazfotos/?img_index=1">@adiazfotos</a> | <a href="https://www.instagram.com/lule_view/?img_index=1">@LuleView</a> - Editor: Antonio Cordero</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </footer>
-
 </body>
 </html>
