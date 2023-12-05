@@ -355,7 +355,9 @@ p {
   }
   
     article {
-        border: 1px solid #000;
+        border-left: 5px solid #800928;
+        border-bottom: 5px solid #800928;;
+        transition: 1.5s;
         padding: 1em;
         margin: 1em auto;
     }
@@ -698,7 +700,7 @@ p {
 
 .footer-menu li {
   display: inline-block;
-  margin-left: 20px;
+  /*margin-left: 20px;*/
 }
 
 .footer-menu li:hover a {
@@ -883,7 +885,9 @@ a.site-name {
       }
       
       article {
-        border: 1px solid #000;
+        border-left: 5px solid #800928;
+        border-bottom: 5px solid #800928;;
+        transition: 1.5s;
         padding: 1em;
         margin: 1em auto;
       }
@@ -1065,7 +1069,7 @@ a.site-name {
     
     .footer-menu li {
       display: inline-block;
-      margin-left: 20px;
+      /*margin-left: 20px;*/
     }
     
     .footer-menu li:hover a {
