@@ -50,8 +50,6 @@
             </div>
         </div>
     </nav>
-    <!-- navbar js script needed -->
-    <script src="./js/miataxpressFunctionsjs.js"></script>
 
     <section id="hero">
         <button class="knowmore" href="#aboutUs">CONÓCENOS</button>
@@ -61,12 +59,20 @@
     <div id="wrapper">
         
         <section id="aboutUs">
-            <div class="textsection">
-                <h2>¿Quienes somos?</h2>
-                <p>MiataXpress es para todo aquel que disfrute de su MX5 y busca compañeros de ruta. Descubrir y disfrutar nuevos parajes, experiencias y conocimientos. Si estás en Andalucía, podrás unirte a uno de nuestros muchos eventos cada mes y vivir la experiencia por ti mismo con tu MX5. Si no, esperamos que disfrutes de las fotos y videos que preparamos para ti.</p>
-                
-                <p>Para nosotros, MiataXpress se ha convertido en una forma de vida y por ello queremos compartirlo contigo mediante esta nueva plataforma. Aquí encontrarás manuales, fotos, videos y productos para ti y tu MX5.</p>
-            </div>
+            <h2>¿Quienes somos?</h2>
+                <div class="accordion">
+                    <article>
+                        <input id="article1" type="radio" name="articles" checked>
+                            <label for="article1">
+                                <h3>Descúbrenos</h3>
+                            </label>
+                            <div>
+                                <p>MiataXpress es para todo aquel que disfrute de su MX5 y busca compañeros de ruta. Descubrir y disfrutar nuevos parajes, experiencias y conocimientos. Si estás en Andalucía, podrás unirte a uno de nuestros muchos eventos cada mes y vivir la experiencia por ti mismo con tu MX5. Si no, esperamos que disfrutes de las fotos y videos que preparamos para ti.</p>
+
+                                <p>Para nosotros, MiataXpress se ha convertido en una forma de vida y por ello queremos compartirlo contigo mediante esta nueva plataforma. Aquí encontrarás manuales, fotos, videos y productos para ti y tu MX5.</p>
+                            </div>
+                    </article>
+                </div>
         </section>
         
         <section id="gallery">
@@ -148,10 +154,10 @@
                     <div class="footer-social-pcresponsive">
                         <p>Sigue nuestras aventuras</p>
                         <a href="https://www.youtube.com/channel/UCM5nRG0Tquzv70ANFslxqaw" target="_blank" class="youtubeChannel">
-                            <i class="fa fa-youtube" style="color: #990505;"></i>
+                            <i class="fa fa-youtube-play" aria-hidden="true"></i>
                         </a>
                         <a href="https://www.instagram.com/miataxpress/" target="_blank" class="instagramAccount">
-                            <i class="fa fa-instagram" style="color: #990505;"></i>
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
                         </a>
                     </div>
                 </div>  
@@ -190,7 +196,7 @@
                     <div class="copyright-text">
                         <p>Copyright &copy; 2023, All Right Reserved <a href="#">MiataXpress</a></p>
                         <div class="mentions">
-                            <p>Fotografos: A. Díaz <a href="https://www.instagram.com/adiazfotos/?img_index=1">@adiazfotos</a> | <a href="https://www.instagram.com/lule_view/?img_index=1">@LuleView</a> - Editor: Antonio Cordero</p>
+                            <p>Fotografos: A. Díaz <a href="https://www.instagram.com/adiazfotos/?img_index=1" target="_blank">@adiazfotos</a> | <a href="https://www.instagram.com/lule_view/?img_index=1" target="_blank">@LuleView</a> - Editor: <a href="https://github.com/AntonioCorderoMolina" target="_blank">Antonio Cordero</a></p>
                         </div>
                     </div>
                 </div>
@@ -198,5 +204,10 @@
         </div>
         
     </footer>
+
+
+    <!-- navbar js script needed -->
+    <script src="./js/miataxpressFunctionsjs.js"></script>
+
 </body>
 </html>

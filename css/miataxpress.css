@@ -318,7 +318,7 @@ p {
 }
 
 /*################################ SECTION 1 ##################################*/
-
+/*
 #aboutUs h2 {
     font-family: titles;
     color: #800928;
@@ -333,6 +333,64 @@ p {
     text-align: center;
     padding-bottom: 5%;
 }
+*/
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+#aboutUS {
+    text-align: center;
+}
+#aboutUS h3{
+    font-family: titles;
+    color:#800928;
+}
+
+.accordion {
+    max-width: 420px;
+    text-align: left;
+  }
+  
+    article {
+        border: 1px solid #000;
+        padding: 1em;
+        margin: 1em auto;
+    }
+
+    article h3 {
+        font-family: titles;
+        font-size: 1.2em;
+        color: #800928;
+        text-align: center;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+
+    article div p{
+        font-family: text;
+        color: #101010;
+        text-align: center;
+        padding-bottom: 5%;
+    }
+    
+    input[type="radio"] {
+        appearance: none;
+        position: fixed;
+        top: -100vh; left: -100vh;
+    
+        & ~ div {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s;
+        }
+    
+        &:checked ~ div {
+        max-height: 200px;
+        }
+  }
 
 /*################################ SECTION 2 ##################################*/
 
@@ -386,7 +444,7 @@ p {
 .grid-4 {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(var(--card-width), 1fr));
-    gap: 20px;
+    gap: 10px;
 }
 
 :root {
@@ -399,11 +457,11 @@ p {
     height: var(--card-height);
     position: relative;
     display: flex;
+    grid-template-columns: 100%;
     justify-content: center;
     align-items: flex-end;
-    padding: 0 36px;
+    padding: 0 30px;
     perspective: 2500px;
-    margin: 5%;
     background: #c5c5c5;
 }
   
@@ -537,10 +595,9 @@ p {
     text-decoration: underline;
 }
 
-.footer-social i {
+.footer-social .fa {
     font-size: 3em;
     padding: 10px;
-    
 }
 
 .footer-widget-heading h3 {
@@ -783,7 +840,7 @@ a.site-name {
 
 /*######################### RESPONSIVE PC SECTIONS ############################*/
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .section {
         flex-direction: column;
     }
@@ -797,9 +854,15 @@ a.site-name {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (width>650px) {
     .grid-4 {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (width< 768px) {
+    .grid-4 {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
@@ -813,6 +876,33 @@ a.site-name {
     .grid-4 {
         grid-template-columns: repeat(4, 1fr);
     }
+
+    .accordion {
+        max-width: 80%;
+        text-align: left;
+      }
+      
+      article {
+        border: 1px solid #000;
+        padding: 1em;
+        margin: 1em auto;
+      }
+      
+      input[type="radio"] {
+        appearance: none;
+        position: fixed;
+        top: -100vh; left: -100vh;
+      
+        & ~ div {
+          max-height: 0;
+          overflow: hidden;
+          transition: max-height 0.5s;
+        }
+      
+        &:checked ~ div {
+          max-height: 200px;
+        }
+      }
 }
 
 /*####################### RESPONISVE PC FOOTER #########################*/
