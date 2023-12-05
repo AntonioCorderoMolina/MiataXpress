@@ -420,11 +420,20 @@ p {
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 1000px;
+    max-width: 80%;
     position: relative;
     margin: auto;
     padding: auto;
 }
+
+@media screen and (width<850px) {
+    .slideshow-container {
+        max-width: 100%;
+        position: relative;
+        margin: auto;
+        padding: auto;
+    }
+}  
 
 /* Hide the images by default */
 .mySlides {
