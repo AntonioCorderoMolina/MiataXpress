@@ -14,6 +14,9 @@
 </head>
 
 <body>
+
+    <!--###### NAVBAR ######-->
+
     <!-- Arrow function -->
     <a href="#"><i class="fa fa-arrow-circle-up"></i></a>
 
@@ -51,6 +54,7 @@
         </div>
     </nav>
 
+    <!--###### HERO SECTION ######-->
     <section id="hero">
         <button class="knowmore" href="#aboutUs">CONÓCENOS</button>
         <button class="joinus">ÚNETE</button>
@@ -58,30 +62,96 @@
 
     <div id="wrapper">
         
+        <!--###### 1st SECTION ABOUT US ######-->
         <section id="aboutUs">
-            <h2>¿Quíenes somos?</h2>
-                <div class="accordion">
-                    <article>
-                        <input id="article1" type="radio" name="articles" checked>
-                            <label for="article1">
-                                <h3>MiataXpress Club</h3>
-                            </label>
-                            <div>
-                                <p>MiataXpress es para todo aquel que disfrute de su MX5 y busca compañeros de ruta. Descubrir y disfrutar nuevos parajes, experiencias y conocimientos. Si estás en Andalucía, podrás unirte a uno de nuestros muchos eventos cada mes y vivir la experiencia por ti mismo con tu MX5. Si no, esperamos que disfrutes de las fotos y videos que preparamos para ti.</p>
-
-                                <p>Para nosotros, MiataXpress se ha convertido en una forma de vida y por ello queremos compartirlo contigo mediante esta nueva plataforma. Aquí encontrarás manuales, fotos, videos y productos para ti y tu MX5.</p>
-                            </div>
-                    </article>
-                </div>
+            
         </section>
         
+        <!--###### 2ND SECTION GALLERY from W3Schools ######-->
         <section id="gallery">
-            <div class="textsection">
-                <h2>Galería</h2>
+            <h2>Galería</h2>
                 <p>¡Consigue tus fotos en nuestra galería!</p>
+        
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <div class="numbertext">
+                        1 / 6
+                    </div>
+                        <img src="./img/photos/IMG_20200224_102308_879.jpg" style="width:100%">
+                    <div class="text">
+                        Ruta anual a Sierra Nevada
+                    </div>
+                </div>
+            
+                <div class="mySlides fade">
+                    <div class="numbertext">
+                        2 / 6
+                    </div>
+                        <img src="./img/photos/MiataXpress_Nacional_MX5_Malaga_2023_Viernes_ADiaz-150.jpg" style="width:100%">
+                    <div class="text">
+                        Cicuito Vemasur Córdoba
+                    </div>
+                </div>
+            
+                <div class="mySlides fade">
+                    <div class="numbertext">
+                        3 / 6
+                    </div>
+                        <img src="./img/photos/MiataXpress_Nacional_MX5_Malaga_2022_Sabado_Publico-68.jpg" style="width:100%">
+                    <div class="text">
+                        Concentración Mensual MX5 Sur
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">
+                        4 / 6
+                    </div>
+                        <img src="./img/photos/IMG_6302.jpg" style="width:100%">
+                    <div class="text">
+                        Ruta Almería
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">
+                        5 / 6
+                    </div>
+                        <img src="./img/photos/HSC_3018.jpg" style="width:100%">
+                    <div class="text">
+                        Concentración Mensual TrepaOllas
+                    </div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">
+                        6 / 6
+                    </div>
+                        <img src="./img/photos/MiataXpress_MiataSunday_Enero_2022-42.jpg" style="width:100%">
+                    <div class="text">
+                        Quedada JDM Modificados y Stance
+                    </div>
+                </div>
+            
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
             </div>
         </section>
 
+        <!--###### 3RD SECTION CUP ######-->
         <section id="cup">
             <div class="textsection">
                 <h2>MiataXpress Cup</h2>
@@ -92,6 +162,7 @@
             </div>
         </section>
 
+        <!--###### 4TH SECTION GUIDES ######-->
         <section id="guides">
             <div class="textsection">
                 <h2>Manuales y tutoriales DIY</h2>
@@ -102,6 +173,7 @@
             </div>
         </section>
 
+        <!--###### 5TH SECTION GRID-4 CARDS - MODEL GENERATIONS ######-->
         <section class="models">
             <div class="finaltextsection">
                 <h2>Distintas Generaciones</h2>
@@ -144,6 +216,7 @@
         
     </div>
 
+    <!--###### FOOTER ######-->
     <footer class="footer">
         <div class="footer-logo">
             <div class="footer-logo">
