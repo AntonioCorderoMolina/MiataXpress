@@ -420,21 +420,12 @@ p {
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 80%;
+    max-width: 100%;
     position: relative;
     margin: auto;
     padding: auto;
 }
-
-@media screen and (width<850px) {
-    .slideshow-container {
-        max-width: 100%;
-        position: relative;
-        margin: auto;
-        padding: auto;
-    }
-}  
-
+  
 /* Hide the images by default */
 .mySlides {
     display: none;
@@ -471,8 +462,8 @@ p {
 .text {
     color: #f5f5f5;
     background-color: rgb(130, 10, 42, 0.3);
-    font-size: 1em;
-    font-weight: bold;
+    font-size: 0.8em;
+    font-weight:800 ;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
@@ -971,6 +962,30 @@ a.site-name {
     }
 }
 
+/*###### RESPONSIVE PC 2nd SECTION GALLERY ##########*/
+
+@media screen and (width>850px) {
+    .slideshow-container {
+        max-width: 80%;
+        position: relative;
+        margin: auto;
+        padding: auto;
+    }
+    .text {
+        color: #f5f5f5;
+        background-color: rgb(130, 10, 42, 0.3);
+        font-size: 1em;
+        font-weight:800 ;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: right;
+    }
+}  
+
+/*###### RESPONSIVE PC 5th SECTION GRID-4 CARDS MODEL GENERATIONS #######*/
+
 @media only screen and (width>650px) {
     .grid-4 {
         grid-template-columns: auto auto;
@@ -994,34 +1009,6 @@ a.site-name {
         grid-template-columns: repeat(4, 1fr);
     }
 
-    .accordion {
-        max-width: 80%;
-        text-align: left;
-      }
-      
-      article {
-        border-left: 5px solid #800928;
-        border-bottom: 5px solid #800928;;
-        transition: 1.5s;
-        padding: 1em;
-        margin: 1em auto;
-      }
-      
-      input[type="radio"] {
-        appearance: none;
-        position: fixed;
-        top: -100vh; left: -100vh;
-      
-        & ~ div {
-          max-height: 0;
-          overflow: hidden;
-          transition: max-height 0.5s;
-        }
-      
-        &:checked ~ div {
-          max-height: 200px;
-        }
-      }
 }
 
 /*####################### RESPONISVE PC FOOTER #########################*/
