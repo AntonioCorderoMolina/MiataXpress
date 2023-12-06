@@ -474,7 +474,7 @@ transition: background-color 0.6s ease;
 
 .grid-2 {
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 50%;
 }
 
 .col-2 {
