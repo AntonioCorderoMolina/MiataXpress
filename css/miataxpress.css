@@ -30,7 +30,7 @@
 /*############################# MOBILE FIRST ##################################*/
 
 *{
-    margin: 0;
+    margin: auto;
     padding: 0;
     box-sizing: border-box;
 }
@@ -261,7 +261,7 @@ a .fa-arrow-circle-up {
     font-weight: bold;
     letter-spacing: 1px;
     padding: 5px 10px;
-    border: none;
+    border: 1px solid #f5f5f5;
     border-radius: 10px;
     position: absolute;
     top: 85%;
@@ -276,7 +276,7 @@ a .fa-arrow-circle-up {
     font-weight: bold;
     letter-spacing: 1px;
     padding: 5px 10px;
-    border: none;
+    border: 1px solid #f5f5f5;
     border-radius: 10px;
     position: absolute;
     top: 85%;
@@ -314,11 +314,10 @@ p {
     font-family: text;
     color: #101010;
     text-align:justify;
-    text-indent: 10%;
 }
 
-/*################################ SECTION 1 ##################################*/
-/*
+/*############################ SECTION 1 ACCORDION ###########################*/
+
 #aboutUs h2 {
     font-family: titles;
     color: #800928;
@@ -333,66 +332,7 @@ p {
     text-align: center;
     padding-bottom: 5%;
 }
-*/
 
-*, *::before, *::after {
-    padding: 0;
-    margin: 0 auto;
-    box-sizing: border-box;
-  }
-
-#aboutUS {
-    text-align: center;
-}
-#aboutUS h3{
-    font-family: titles;
-    color:#800928;
-}
-
-.accordion {
-    max-width: 420px;
-    text-align: left;
-  }
-  
-    article {
-        border-left: 5px solid #800928;
-        border-bottom: 5px solid #800928;;
-        transition: 1.5s;
-        padding: 1em;
-        margin: 1em auto;
-    }
-
-    article h3 {
-        font-family: titles;
-        font-size: 1.2em;
-        color: #800928;
-        text-align: center;
-        padding-bottom: 20px;
-        width: 100%;
-    }
-
-    article div p{
-        font-family: text;
-        color: #101010;
-        text-align: center;
-        padding-bottom: 5%;
-    }
-    
-    input[type="radio"] {
-        appearance: none;
-        position: fixed;
-        top: -100vh; left: -100vh;
-    
-        & ~ div {
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.5s;
-        }
-    
-        &:checked ~ div {
-        max-height: 200px;
-        }
-  }
 
 /*############################ SECTION 2 GALLERY #############################*/
 /********************* from FreeFrontend.com/css-carousels ********************/   
@@ -680,7 +620,7 @@ transition: background-color 0.6s ease;
     color: #f5f5f5;
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     position: relative;
 }
 .footer-social p::before {
@@ -959,6 +899,28 @@ a.site-name {
 
     .textsection, .image img {
         width: 100%;
+    }
+}
+
+/*###### RESPONSIVE PC 1st SECTION ABOUT US ##########*/
+
+@media screen and (width>850px) {
+    #aboutUs {
+        width: 60%;
+        text-align: center;
+    }
+    #aboutUs h2 {
+        font-family: titles;
+        color: #800928;
+        text-align: center;
+        padding-bottom: 5%;
+    }
+
+    #aboutUs p {
+        font-family: text;
+        color: #101010;
+        text-align: center;
+        padding-bottom: 5%;
     }
 }
 
