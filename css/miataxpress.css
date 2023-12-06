@@ -440,6 +440,7 @@ transition: background-color 0.6s ease;
 
 /*################################ SECTION 3 #################################*/
 
+
 #cup {
     padding: 5%;
     display: flex;
@@ -1076,7 +1077,20 @@ a.site-name {
     .grid-4 {
         grid-template-columns: repeat(4, 1fr);
     }
+}
 
+
+@media screen and (max-width: 767px) {
+    #gallery p,
+    #cup .grid-2 .col-2 p,
+    #guides .grid-2 .col-2 p {
+      text-align: center; /* Alinea los párrafos en el centro */
+    }
+  
+    #imgCupSection,
+    #imgGuidesSection {
+      width: 100%; /* Hacer que las imágenes ocupen el 100% del ancho de la pantalla */
+    }
 }
 
 /*####################### RESPONISVE PC FOOTER #########################*/
