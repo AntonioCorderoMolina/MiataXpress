@@ -441,38 +441,131 @@ transition: background-color 0.6s ease;
 /*################################ SECTION 3 #################################*/
 
 #cup {
+    padding: 5%;
     display: flex;
     align-items: center;
     margin-bottom: 5px;
 }
 
-.image {
-    flex: 1;
-    text-align: center;
+.grid-2 {
+    display: grid;
+    grid-template-columns: 100%;
 }
 
-.image img {
-    max-width: 100%;
-    height: auto;
+.col-2 {
+    padding: 4%;
+    color: #800928;
+}
+.col-2 .title {
+    font-family: titles;
+}
+
+
+#imgCupSection {
+    width: 100%;
+    display: block;
+    margin: auto;
+
 }
 
 /*################################ SECTION 4 #################################*/
 
 #guides {
+    padding: 5%;
     display: flex;
     align-items: center;
     margin-bottom: 5px;
 }
 
-.image {
-    flex: 1;
-    text-align: center;
+.grid-2 {
+    display: grid;
+    grid-template-columns: 100%;
 }
 
-.image img {
-    max-width: 100%;
-    height: auto;
+.col-2 {
+    padding: 4%;
+    color: #800928;
 }
+.col-2 .title {
+    font-family: titles;
+}
+
+
+#imgGuidesSection {
+    width: 100%;
+    display: block;
+    margin: auto;
+
+}
+
+/***** Button from https://uiverse.io/vinodjangid07/thin-duck-22 *****/
+.Btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition-duration: .3s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+    background-color:#800928;
+  ;
+  }
+  
+  /* plus sign */
+  .sign {
+    width: 100%;
+    transition-duration: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sign svg {
+    width: 15px;
+  }
+  
+  .sign svg path {
+    fill: white;
+  }
+  /* text */
+  .text {
+    position: absolute;
+    right: 0%;
+    width: 0%;
+    opacity: 0;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    transition-duration: .3s;
+  }
+  /* hover effect on button width */
+  .Btn:hover {
+    width: 125px;
+    border-radius: 40px;
+    transition-duration: .3s;
+  }
+  
+  .Btn:hover .sign {
+    width: 30%;
+    transition-duration: .3s;
+    padding-left: 20px;
+  }
+  /* hover effect button's text */
+  .Btn:hover .text {
+    opacity: 1;
+    width: 70%;
+    transition-duration: .3s;
+    padding-right: 10px;
+  }
+  /* button click effect*/
+  .Btn:active {
+    transform: translate(2px ,2px);
+  }
 
 /*############################ SECTION 5 GRID-4 ##############################*/
 
@@ -943,6 +1036,21 @@ a.site-name {
         text-align: right;
     }
 }  
+
+/*###### RESPONSIVE PC 3rd SECTION CUP ##########*/
+
+@media only screen and (width>850px) {
+    .grid-2 {
+        grid-template-columns: 50% 50%;
+    }
+    .grid-3d {
+        display: grid;
+        grid-template-columns: 25% 25% 50%;
+    }
+    .grid-4 {
+        grid-template-columns: auto auto auto auto; 
+    }
+}
 
 /*###### RESPONSIVE PC 5th SECTION GRID-4 CARDS MODEL GENERATIONS #######*/
 
