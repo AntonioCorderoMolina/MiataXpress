@@ -59,18 +59,24 @@ Sobre ella he colocado dos botones "Call to Action" estilados de forma sencilla<
 
 <h2 id="estilo">Estilo de la página</h2>
 <h3>Paleta de colores</h3>
-<p>.....</p>
+<p> 
+  body: #f5f5f5 / rgb(245,245,245);
+  #101010 / rgb(16, 16, 16);
+  buttons: #990505 /  rgb(153, 5, 5) // #800928 / rgb(128, 9, 40);
+</p>
 <h3>Tipografías</h3>
 <p>.....</p>
 <h3>Imágenes</h3>
 <p>.....</p>
-<h3>Videos</h3>
-<p>.....</p>
-...................
+
 <h2 id="snippets">Code snippets</h2>
 <p>He utilizado los siguientes:</p>
 <ul>
-  <li>Barra de navegación: tomada de w3Schools "How to" (poner vínculo)</li>
-  <li>Accordion: ..............</li>
-  <li>..........</li>
+  <li>Barra de navegación: customizada a partir de una idea tomada del canal de Yotube @midudev (<a href="https://">Video de referencia</a>)</li>
+  <li>Dropdown Form en la NavBar tomada de W3Scools "CSS Dropdowns" (<a href="https://www.w3schools.com/css/css_dropdowns.asp">url</a>)</li>
+  <li>Galería en carrusel tomada de FreeFrontend.com "CSS IMAGE GALLERY - Author: Lubna" (<a href="https://codepen.io/Lubna/pen/MWapdjE">url</a>)</li>
+  <li>Overlay effect tomado de W3Scools "How TO - Image Hover Overlay" (<a href="https://www.w3schools.com/howto/howto_css_image_overlay.asp">url</a>)</li>
+  <li>Card Animation: estructura para la animación tomada del canal de Yotube @midudev ((<a href="https://">Video de referencia</a>))</li>
+  <li>Emial Form en el footer: tomada de W3Schools "How TO - HTML input type="email" ((<a href="https://www.w3schools.com/tags/att_input_type_email.asp">url</a>))</li>
+  <li>Ventana Modal para el los créditos en el footer tomada de W3Schools "How TO - CSS/JS Modal" ((<a href="https://www.w3schools.com/howto/howto_css_modals.asp">url</a>))</li>
 </ul>
