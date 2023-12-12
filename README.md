@@ -66,8 +66,8 @@ Sobre ella he colocado dos botones "Call to Action" estilados de forma sencilla<
 </p>
 <h3>Tipografías</h3>
 <p>
-  <li>Títulos: ITCAvantGardeStd-MdObl from 1001fonts</li>
-  <li>Texto: QueensidesMedium-x30zV.ttf from 1001fonts</li>
+  <li>Títulos: ITC Avant Garde from 1001fonts</li>
+  <li>Texto: Queen sides Medium from 1001fonts</li>
 </p>
 <h3>Imágenes</h3>
 <p>
@@ -84,7 +84,7 @@ Sobre ella he colocado dos botones "Call to Action" estilados de forma sencilla<
   <li>Dropdown Form en la NavBar tomada de W3Scools "CSS Dropdowns" (<a href="https://www.w3schools.com/css/css_dropdowns.asp">url</a>)</li>
   <li>Galería en carrusel tomada de FreeFrontend.com "CSS IMAGE GALLERY - Author: Lubna" (<a href="https://codepen.io/Lubna/pen/MWapdjE">url</a>)</li>
   <li>Overlay effect tomado de W3Scools "How TO - Image Hover Overlay" (<a href="https://www.w3schools.com/howto/howto_css_image_overlay.asp">url</a>)</li>
-  <li>Card Animation: estructura para la animación tomada del canal de Yotube @midudev ((<a href="https://">Video de referencia</a>))</li>
-  <li>Emial Form en el footer: tomada de W3Schools "How TO - HTML input type="email" ((<a href="https://www.w3schools.com/tags/att_input_type_email.asp">url</a>))</li>
-  <li>Ventana Modal para el los créditos en el footer tomada de W3Schools "How TO - CSS/JS Modal" ((<a href="https://www.w3schools.com/howto/howto_css_modals.asp">url</a>))</li>
+  <li>Card Animation: estructura para la animación tomada del canal de Yotube @midudev (<a href="https://">Video de referencia</a>)</li>
+  <li>Emial Form en el footer: tomada de W3Schools "How TO - HTML input type="email" (<a href="https://www.w3schools.com/tags/att_input_type_email.asp">url</a>)</li>
+  <li>Ventana Modal para el los créditos en el footer tomada de W3Schools "How TO - CSS/JS Modal" (<a href="https://www.w3schools.com/howto/howto_css_modals.asp">url</a>)</li>
 </ul>
