@@ -71,7 +71,7 @@ Sobre ella he colocado dos botones "Call to Action" estilados de forma sencilla<
 </p>
 <h3>Imágenes</h3>
 <p>
-  Fotografías cedidas por los fotográfos oficiales de l grupo
+  Fotografías cedidas por los fotográfos oficiales del grupo
   <li>(<a href="https://www.instagram.com/adiazfotos/">@adiazfotos</a>)</li>
   <li>(<a href="https://www.instagram.com/lule_view/">@luleview</a>)</li>
   <li>(<a href="https://www.instagram.com/rsphoto.eu/">@rsphoto.eu</a>)</li>
