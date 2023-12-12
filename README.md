@@ -1,4 +1,4 @@
-<h1>Memoria del proyecto fin de evaluación de Lenguajes de Marcas - 1º DAW</h1>
+![image](https://github.com/AntonioCorderoMolina/MiataXpress/assets/145378138/aff07b40-89e4-464d-935c-aaa44fcc7895)<h1>Memoria del proyecto fin de evaluación de Lenguajes de Marcas - 1º DAW</h1>
 <h2>MiataXpress Web</h2>
 <p>Enlaces directo a web navegable:</p>
 - <a href="https://antoniocorderomolina.github.io/MiataXpress/miataxpress.html">Web navegable del proyecto</a>
@@ -60,12 +60,22 @@ Sobre ella he colocado dos botones "Call to Action" estilados de forma sencilla<
 <h2 id="estilo">Estilo de la página</h2>
 <h3>Paleta de colores</h3>
 <p> 
-  body: #f5f5f5 / rgb(245,245,245);
-  #101010 / rgb(16, 16, 16);
-  buttons: #990505 /  rgb(153, 5, 5) // #800928 / rgb(128, 9, 40);
+  <li>body: #f5f5f5 / rgb(245,245,245); Artic White</li>
+  <li>#101010 / rgb(16, 16, 16); Jet Black</li>
+  <li>buttons: #990505 /  rgb(153, 5, 5) // #800928 / rgb(128, 9, 40); Soul Crystal Red // Dark Red </li>
 </p>
 <h3>Tipografías</h3>
-<p>.....</p>
+<p>
+  @font-face {
+    font-family: text;
+    src: url(../font/ITCAvantGardeStd-MdObl.otf);
+}
+
+@font-face {
+    font-family: titles;
+    src: url(../font/QueensidesMedium-x30zV.ttf);
+}
+</p>
 <h3>Imágenes</h3>
 <p>.....</p>
 
