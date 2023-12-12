@@ -1,4 +1,4 @@
-![image](https://github.com/AntonioCorderoMolina/MiataXpress/assets/145378138/aff07b40-89e4-464d-935c-aaa44fcc7895)<h1>Memoria del proyecto fin de evaluación de Lenguajes de Marcas - 1º DAW</h1>
+<h1>Memoria del proyecto fin de evaluación de Lenguajes de Marcas - 1º DAW</h1>
 <h2>MiataXpress Web</h2>
 <p>Enlaces directo a web navegable:</p>
 - <a href="https://antoniocorderomolina.github.io/MiataXpress/miataxpress.html">Web navegable del proyecto</a>
