@@ -463,20 +463,42 @@ transition: background-color 0.6s ease;
     font-family: titles;
 }
 
+.link-button {
+    text-decoration: none;
+}
+
+.link-button button {
+    font-family: text;
+    background-color: #800928;
+    color: #f5f5f5;
+    padding: 6px 10px;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 31%;
+}
+
+.link-button button:hover {
+    background-color: #990505;
+    border: 2px solid #101010;
+}
+
 /******* Overlay Effect from W3Schools *********/
 
 #cup .container {
     position: relative;
-    width: 50%;
+    width: 100%; 
 }
-  
+
 #cup .image {
     width: 100%;
     display: block;
     margin: auto;
 }
   
-.overlay {
+.middle {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -488,9 +510,9 @@ transition: background-color 0.6s ease;
     transition: .5s ease;
     background-color: #800928;
 }
-  
-#cup .container:hover .overlay {
-    opacity: 1;
+
+#cup .container:hover .middle {
+    opacity: 0.9;
 }
   
 #cup .text {
@@ -502,8 +524,23 @@ transition: background-color 0.6s ease;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
     text-align: center;
+}
+#cup .text button {
+    font-family: text;
+    background-color: #f5f5f5;
+    color: #800928;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transform: translate(0%,150%);
+    width: 7em;
+}
+#cup .text a{
+    text-decoration: none;
 }
 
 /******* Overlay Effect from W3Schools  ENDS *********/
@@ -519,20 +556,42 @@ transition: background-color 0.6s ease;
     font-family: titles;
 }
 
+.link-button {
+    text-decoration: none;
+}
+
+.link-button button {
+    font-family: text;
+    background-color: #800928;
+    color: #f5f5f5;
+    padding: 6px 10px;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 31%;
+}
+
+.link-button button:hover {
+    background-color: #990505;
+    border: 2px solid #101010;
+}
+
 /******* Overlay Effect from W3Schools *********/
 
 #guides .container {
     position: relative;
-    width: 50%;
+    width: 100%; 
 }
-  
+
 #guides .image {
     width: 100%;
     display: block;
     margin: auto;
 }
   
-.overlay {
+.middle {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -544,9 +603,9 @@ transition: background-color 0.6s ease;
     transition: .5s ease;
     background-color: #800928;
 }
-  
-#guides .container:hover .overlay {
-    opacity: 1;
+
+#guides .container:hover .middle {
+    opacity: 0.9;
 }
   
 #guides .text {
@@ -558,8 +617,23 @@ transition: background-color 0.6s ease;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
     text-align: center;
+}
+#guides .text button {
+    font-family: text;
+    background-color: #f5f5f5;
+    color: #800928;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transform: translate(0%,150%);
+    width: 7em;
+}
+#guides .text a{
+    text-decoration: none;
 }
 
 /******* Overlay Effect from W3Schools  ENDS *********/
@@ -906,7 +980,9 @@ a.site-name {
     text-transform: uppercase;
     color: #fff;
     text-decoration: none;
+    margin-right: 45%;
 }
+
 .site-navbar ul {
     margin: 0;
     padding: 0;
@@ -1047,6 +1123,7 @@ a.site-name {
     .grid-4 {
         grid-template-columns: auto auto auto auto; 
     }
+
 }
 
 /*###### RESPONSIVE PC 5th SECTION GRID-4 CARDS MODEL GENERATIONS #######*/
