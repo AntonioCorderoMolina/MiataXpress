@@ -66,18 +66,16 @@ Sobre ella he colocado dos botones "Call to Action" estilados de forma sencilla<
 </p>
 <h3>Tipografías</h3>
 <p>
-  @font-face {
-    font-family: text;
-    src: url(../font/ITCAvantGardeStd-MdObl.otf);
-}
-
-@font-face {
-    font-family: titles;
-    src: url(../font/QueensidesMedium-x30zV.ttf);
-}
+  <li>Títulos: ITCAvantGardeStd-MdObl from 1001fonts</li>
+  <li>Texto: QueensidesMedium-x30zV.ttf from 1001fonts</li>
 </p>
 <h3>Imágenes</h3>
-<p>.....</p>
+<p>
+  Fotografías cedidas por los fotográfos oficiales de l grupo
+  <li>(<a href="https://">@adiazfotos</a>)</li>
+  <li>(<a href="https://">@luleview</a>)</li>
+  <li>(<a href="https://">@rsphoto</a>)</li>
+</p>
 
 <h2 id="snippets">Code snippets</h2>
 <p>He utilizado los siguientes:</p>
