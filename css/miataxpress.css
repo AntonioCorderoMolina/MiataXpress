@@ -446,6 +446,10 @@ transition: background-color 0.6s ease;
     margin-bottom: 5px;
 }
 
+#cup h1 {
+    font-family: titles;
+}
+
 .grid-2 {
     display: grid;
     grid-template-columns: 100%;
@@ -459,11 +463,50 @@ transition: background-color 0.6s ease;
     font-family: titles;
 }
 
-#imgCupSection {
+/******* Overlay Effect from W3Schools *********/
+
+#cup .container {
+    position: relative;
+    width: 50%;
+}
+  
+#cup .image {
     width: 100%;
     display: block;
     margin: auto;
 }
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #800928;
+}
+  
+#cup .container:hover .overlay {
+    opacity: 1;
+}
+  
+#cup .text {
+    color: #f5f5f5;
+    font-family: titles;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/******* Overlay Effect from W3Schools  ENDS *********/
 
 /*################################ SECTION 4 #################################*/
 
@@ -472,11 +515,54 @@ transition: background-color 0.6s ease;
     margin-bottom: 5px;
 }
 
-#imgGuidesSection {
+#guides h1 {
+    font-family: titles;
+}
+
+/******* Overlay Effect from W3Schools *********/
+
+#guides .container {
+    position: relative;
+    width: 50%;
+}
+  
+#guides .image {
     width: 100%;
     display: block;
     margin: auto;
 }
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #800928;
+}
+  
+#guides .container:hover .overlay {
+    opacity: 1;
+}
+  
+#guides .text {
+    color: #f5f5f5;
+    font-family: titles;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/******* Overlay Effect from W3Schools  ENDS *********/
 
 /*############################ SECTION 5 GRID-4 ##############################*/
 
