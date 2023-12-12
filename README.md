@@ -72,7 +72,7 @@ Sobre ella he colocado dos botones "Call to Action" estilados de forma sencilla<
 <h3>Imágenes</h3>
 <p>
   Fotografías cedidas por los fotográfos oficiales de l grupo
-  <li>(<a href="https://">@adiazfotos</a>)</li>
+  <li>(<a href="https://www.instagram.com/adiazfotos/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==">@adiazfotos</a>)</li>
   <li>(<a href="https://">@luleview</a>)</li>
   <li>(<a href="https://">@rsphoto</a>)</li>
 </p>
@@ -80,11 +80,11 @@ Sobre ella he colocado dos botones "Call to Action" estilados de forma sencilla<
 <h2 id="snippets">Code snippets</h2>
 <p>He utilizado los siguientes:</p>
 <ul>
-  <li>Barra de navegación: customizada a partir de una idea tomada del canal de Yotube @midudev (<a href="https://">Video de referencia</a>)</li>
+  <li>Barra de navegación: customizada a partir de una idea tomada del canal de Yotube @midudev (<a href="https://www.youtube.com/shorts/ZsGUkdFJRxA">Vídeo de referencia</a>)</li>
   <li>Dropdown Form en la NavBar tomada de W3Scools "CSS Dropdowns" (<a href="https://www.w3schools.com/css/css_dropdowns.asp">url</a>)</li>
   <li>Galería en carrusel tomada de FreeFrontend.com "CSS IMAGE GALLERY - Author: Lubna" (<a href="https://codepen.io/Lubna/pen/MWapdjE">url</a>)</li>
   <li>Overlay effect tomado de W3Scools "How TO - Image Hover Overlay" (<a href="https://www.w3schools.com/howto/howto_css_image_overlay.asp">url</a>)</li>
-  <li>Card Animation: estructura para la animación tomada del canal de Yotube @midudev (<a href="https://">Video de referencia</a>)</li>
+  <li>Card Animation: estructura para la animación tomada del canal de Yotube @midudev (<a href="https://www.youtube.com/watch?v=D1p2Sl6lxX4&list=LL&index=25">Vídeo de referencia</a>)</li>
   <li>Emial Form en el footer: tomada de W3Schools "How TO - HTML input type="email" (<a href="https://www.w3schools.com/tags/att_input_type_email.asp">url</a>)</li>
   <li>Ventana Modal para el los créditos en el footer tomada de W3Schools "How TO - CSS/JS Modal" (<a href="https://www.w3schools.com/howto/howto_css_modals.asp">url</a>)</li>
 </ul>
