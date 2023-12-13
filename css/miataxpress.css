@@ -878,7 +878,7 @@ transition: background-color 0.6s ease;
     font-family: text;
     text-align: center;
     font-size: 0.8em;
-    color: #f5f5f5
+    color: #101010
 }
 .copyright-text a {
     color: #990505;
@@ -921,6 +921,65 @@ transition: background-color 0.6s ease;
   color: #f5f5f5;
   text-decoration: none;
 }
+
+/****** CREDITS *******/
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    color: #f5f5f5;
+    font-family: text;
+  }
+
+  #myBtn{
+    cursor:pointer;
+    color: #f5f5f5;
+    font-family: titles;
+    border-left: 2px solid #f5f5f5;
+    border-right: 2px solid #f5f5f5;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #f5f5f5;
+    margin: 15% auto; /* 15% from the top and centered */
+    margin-top: 50%;
+    padding: 20px;
+    border: 1px solid #800928;
+    width: 80%; /* Could be more or less, depending on screen size */
+    font-family: text;
+  }
+
+  .modal-content p {
+    padding-top: 15px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #990505;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #101010;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /****** CREDITS ENDS *******/
+
 /***** COPYRIGHT AREA ENDS *****/
 
 /*#############################################################################*/
@@ -1342,6 +1401,64 @@ a.site-name {
       color: #f5f5f5;
       text-decoration: none;
     }
+    
+    /****** CREDITS *******/
+
+    /* The Modal (background) */
+    .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        color: #f5f5f5;
+        font-family: text;
+    }
+
+    #myBtn{
+        cursor:pointer;
+        color: #f5f5f5;
+        font-family: titles;
+        border-left: 2px solid #f5f5f5;
+        border-right: 2px solid #f5f5f5;
+    }
+    
+    /* Modal Content/Box */
+    .modal-content {
+        background-color: #f5f5f5;
+        margin: 15% auto; /* 15% from the top and centered */
+        padding: 20px;
+        border: 1px solid #800928;
+        width: 80%; /* Could be more or less, depending on screen size */
+        font-family: text;
+    }
+
+    .modal-content p {
+        padding-top: 15px;
+    }
+    
+    /* The Close Button */
+    .close {
+        color: #990505;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    
+    .close:hover,
+    .close:focus {
+        color: #101010;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    /****** CREDITS ENDS *******/
+    
     /***** COPYRIGHT AREA ENDS *****/
 
 }
