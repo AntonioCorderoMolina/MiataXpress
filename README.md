@@ -54,7 +54,7 @@ Sobre ella he colocado dos botones "Call to Action" estilados de forma sencilla<
 <p>Se dispone de 4 cards (1 por cada generación) estladas y con aminación en hover en grid-4 para pantallas de ordenador y tablet y grid-1 en cascada para pantallas de móvil</p>
 
 <h3>Footer</h3>
-<img src="./readme-miataxpress/footer.png" alt="imagen del footer" style="width:50%">
+<img src="./readme-miataxpress/footer.png" alt="imagen del footer" style="width:50%"> <img src="./readme-miataxpress/Credits.png" alt="imagen de créditos del footer" style="width:50%">
 <p>Footer que cuenta con elementos extilados con grid-2 y un segundo grid-2 al final de la página para los hiperenlaces de la barra de navegación secundaria, copyright y el botón de ventana modal para los recursos. Para pantallas mayores (portátil y pc sobremesa) se muestra una foto de fondo tomada de uno de los fotográfos del grupo (@adiazfotos). En cambio en móvil se muestra un fondo de color sólido y el lógo como grid.</p>
 
 <h2 id="estilo">Estilo de la página</h2>
